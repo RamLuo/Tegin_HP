@@ -4,6 +4,7 @@
     border:2px solid #f00;
 }
 
+
 /*body��a��ǩ����*/
 /*4��"ȫ��"�Ļ�ɫ��������*/
 #a1 .bg,#a2 .bg,#a3 .bg,#a4 .bg{
@@ -45,7 +46,9 @@
     margin: 5px;;
     border-radius: 3px;
 }
-
+#a2 a:hover{background-color:#d9dde1;}
+#a3 a:hover{background-color:#d9dde1;}   
+#a4 a:hover{background-color:#d9dde1;}    
 /*4��id�Ŀ��*/
 #a1,#a2,#a3,#a4{width:1000px;
     margin:0 auto;
@@ -53,10 +56,17 @@
     padding: 10px 0;
 }
 /*body��ͼƬ����*/
+#aa{width:100%;
+background:#F8FAFC;
+margin-top:20px;
+
+}
 #a5{clear: both;
-    width:100%;
-    margin: 0 auto;
-    padding:40px;
+    width:1200px;height:700px;
+    margin:0 150px;
+    padding:24px 0 10px 0;
+	padding-left:1px;
+	
 }
 #a5 ul{
     padding: 10px 25px;
@@ -65,13 +75,13 @@
 ul>li{position: relative;
     float: left;
     list-style: none;
-    transition: 1s;
+    transition: 0.3s;
 
 }
 /*�����ͣ������Ч��*/
-#a5 li:hover{transform: scale(1.1)}
+#a5 li:hover{transform: translateY(-10px);}
 /*img����:��С Բ��*/
-#a5 img{width:120px;height:120px;
+#a5 img{width:125px;height:120px;
     border-radius: 10px;
     float:left;
     margin-right: 20px;
@@ -79,23 +89,30 @@ ul>li{position: relative;
 
 }
 /*ͼƬ�ϵ�p��ǩ����*/
-#a5 p{width:120px;height:30px;
-    background-color:rgba(0,0,0,0.3);
+#a5 p{width:125px;height:30px;
+    background-color:rgba(0,0,0,0.4);
     border-bottom-right-radius:10px;
     border-bottom-left-radius:10px;
     position:absolute;
     top:90px;
     text-align: center;
     line-height: 30px;
+    font-size:14px;
     color:#fff;
 }
 /*�ײ���ҳ��������*/
-#a6{ clear: both;padding-left:7rem;}
+#a6{ clear: both;
+    padding:20px 385px;
+   }
 .page-item{padding:10px;}
-.page-link{border-radius: 3px;}
+.page-link{border-radius: 5px;
+color: #14191e;
+}
 .page-item.active .page-link{
     background-color:#FFBD00;
     border-color: #dee2e6;
 
 }
-.page-link:hover{background-color:#FFBD00;}
+.page-link:hover{background-color:#FFBD00;
+color:#fff;
+}
