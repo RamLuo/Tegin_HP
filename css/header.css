@@ -1,0 +1,19 @@
+div .position-relative a{position: absolute; top:.6rem;right:10rem}
+.z-index-1000{z-index: 1000}
+input[placeholder="请输入搜索关键词"] {
+    font-size: .6rem;
+    outline: none;
+    height: 2.5rem;
+    width: 11rem;
+    margin-right:8.8rem;
+}
+input[type="text"] {
+    width: 191px;
+    height: 38px;
+    border-radius: 20px;
+    padding-left: 10px;
+    border: 1px solid #D9DDE1;
+}
+.N{color:#f00;font-size: 1px;position: absolute;top:0px;right: 8px;}
+.img-height{height: 4.6rem;margin: 0 0 0 8rem}
+.container-fluid{padding: 0px}
