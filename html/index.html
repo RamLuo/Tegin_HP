@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>中华养生网-最好的养生网站提供生活小常识，养生食谱，养生粥，养生汤，养生茶等养生知识！</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+    <!-- 网站描述，常用于网站被搜索引擎收录并被用户搜索时显示的网站描述信息 -->
+    <meta name="description" content="中华养生网是知名的养生门户，为广大网民提供养生保健知识，包括中医养生，食疗养生，运动养生，健康养生方法，春夏秋冬四季养生小常识等内容，是您健康生活的好伴侣！">
+    <!-- 搜索关键字，提升搜索排名 -->
+    <meta name="keywords" content="养生,养生之道,健康养生,养生小常识,养生保健,中华养生网">
+    <!-- 给网站添加ico loggo,需要保证ico图标的路径和html文件在同一个目录下-->
+    <link rel="shortcut icon" href="favicon.ico">
+    <!-- 引入文件，必须注意顺序-->
+    <link rel="stylesheet" href="../css/bootstrap.css" />
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../css/homepage.css">
+    <link rel="stylesheet" href="../css/index_1.css">
+</head>
+
+<body>
+    <iframe class="header-height position-fixed z-index-1000 box-shadow" src="header.html" frameborder="0"></iframe>
+    <div class="container pt-6 w-100">
+        <div class="carousel  my-3" data-ride="carousel" id="go">
+            <div class="position-absolute z-index-200 rounded">
+                <div class="my-lg-4 my-md-3 m-sm-2 ml-md-0 ml-lg-3">
+                    <a class="position-relative" href="#"><img class="" src="../img/ClassA/icon05.png" alt="">
+                        <span>养生人群<a href="#"><span
+                                    class="icon1 carousel-control-next-icon position-absolute"></span></a></span>
+                    </a>
+                </div>
+                <div class="my-lg-4 my-md-3 m-sm-2 ml-md-0 ml-lg-3">
+                    <a class="position-relative" href="#"><img src="../img/ClassA/icon04.png" alt="">
+                        <span>饮食养生<a href="#"><span
+                                    class="icon2 carousel-control-next-icon position-absolute"></span></a></span>
+                    </a>
+                </div>
+                <div class="my-lg-4 my-md-3 m-sm-2 ml-md-0 ml-lg-3">
+                    <a class="position-relative" href="#"><img src="../img/ClassA/icon03.png" alt="">
+                        <span>四季养生<a href="#"><span
+                                    class="icon3 carousel-control-next-icon position-absolute"></span></a></span>
+                    </a>
+                </div>
+                <div class="my-lg-4 my-md-3 m-sm-2 ml-md-0 ml-lg-3">
+                    <a class="position-relative" href="#"><img src="../img/ClassA/icon01.png" alt="">
+                        <span>运动养生<a href="#"><span
+                                    class="icon4 carousel-control-next-icon position-absolute"></span></a></span>
+                    </a>
+                </div>
+                <div class="my-lg-4 my-md-3 m-sm-2 ml-md-0 ml-lg-3">
+                    <a class="position-relative" href="#"><img src="../img/ClassA/icon02.png" alt="">
+                        <span>中医养生<a href="#"><span
+                                    class="icon5 carousel-control-next-icon position-absolute"></span></a></span>
+                    </a>
+                </div>
+            </div>
+            <!-- 轮播图片-->
+            <div class="carousel-inner">
+                <div class="carousel-item active"><img class="w-100 rounded-circle" src="../img/ClassA/111.jpg"
+                        alt="" /></div>
+                <div class="carousel-item"><img class="w-100 rounded-circle" src="../img/ClassA/222.jpg" alt="" /></div>
+                <div class="carousel-item"><img class="w-100  rounded-circle" src="../img/ClassA/333.jpg" alt="" />
+                </div>
+            </div>
+            <!-- 左右箭头按钮-->
+            <a data-slide="prev" href="#go" class="carousel-control-prev"><span
+                    class="carousel-control-prev-icon"></span></a>
+            <a data-slide="next" href="#go" class="carousel-control-next"><span
+                    class="carousel-control-next-icon"></span></a>
+            <!-- 轮播指示器-->
+            <ul class="carousel-indicators">
+                <li data-target="#go" data-slide-to="0" class="active"></li>
+                <li data-target="#go" data-slide-to="1"></li>
+                <li data-target="#go" data-slide-to="2"></li>
+            </ul>
+        </div>
+        <div class="breadcrumb my-2 p-1">
+            <a class="btn p-1 m-2 text-danger" href="#">抗癌</a>
+            <a class="btn p-1 m-2 text-info" href="#">降血压</a>
+            <a class="btn p-1 m-2 text-danger" href="#">降血脂</a>
+            <a class="btn p-1 m-2" href="#">降血糖</a>
+            <a class="btn p-1 m-2 text-danger" href="#">抗衰老</a>
+            <a class="btn p-1 m-2 text-warning" href="#">减肥</a>
+            <a class="btn p-1 m-2 text-info" href="#">消肿</a>
+            <a class="btn p-1 m-2 text-danger" href="#">利尿</a>
+            <a class="btn p-1 m-2 text-warning" href="#">止咳</a>
+            <a class="btn p-1 m-2 text-info" href="#">清热</a>
+            <a class="btn p-1 m-2 text-danger" href="#">润肠</a>
+            <a class="btn p-1 m-2 text-warning" href="#">养颜</a>
+            <a class="btn p-1 m-2" href="#">养心</a>
+            <a class="btn p-1 m-2 text-danger" href="#">养胃</a>
+            <a class="btn p-1 m-2 text-warning" href="#">养肝</a>
+            <a class="btn p-1 m-2 text-info" href="#">润肺</a>
+            <a class="btn p-1 m-2 text-danger" href="#">提高免疫力</a>
+            <a class="btn p-1 m-2" href="#">消食</a>
+            <a class="btn p-1 m-2 text-info" href="#">活血</a>
+            <a class="btn p-1 m-2 text-warning" href="#">生津</a>
+            <a class="btn p-1 m-2 text-danger" href="#">排毒</a>
+            <a class="btn p-1 m-2 text-info" href="#">明目</a>
+            <a class="btn p-1 m-2" href="#">安神</a>
+            <a class="btn p-1 m-2 text-warning" href="#">键脑</a>
+            <a class="btn p-1 m-2 text-info" href="#">滋阴</a>
+            <a class="btn p-1 m-2" href="#">壮阳</a>
+            <a class="btn p-1 m-2 text-info" href="#">补虚</a>
+            <a class="btn p-1 m-2 text-danger" href="#">补气</a>
+            <a class="btn p-1 m-2 text-warning" href="#">键脾</a>
+            <a class="btn p-1 m-2 text-danger" href="#">补肾</a>
+            <a class="btn p-1 m-2 text-info" href="#">补血</a>
+        </div>
+        <div class="text-center my-3">
+            <h4><img class="mr-4" src="../img/ClassA/zuo.png" alt="" />养/生/资/讯<img class="ml-4"
+                    src="../img/ClassA/you.png" alt="" /></h4>
+        </div>
+        <div class="form-inline">
+            <a class="col-3 p-0" href="#">
+                <img class="img-height position-relative w-100" src="../img/ClassA/10.gif" alt="">
+                <div class="div-span">
+                    <span class="span-size">夏至</span>
+                    <span class="span-size">菊花茶</span>
+                    <span class="span-size">养生</span>
+                    <span class="span-size">止咳</span>
+                    <span class="span-size">生津</span>
+                </div>
+                <div class="ml-2 p-0 mb-3">北冥有鱼，其名为鲲。鲲之大，不知其几千里也；</div>
+            </a>
+            <a class="col-3 p-0" href="#">
+                <img class="img-height position-relative w-100" src="../img/ClassA/2.jpg" alt="">
+                <div class="div-span">
+                    <span class="span-size">百草</span>
+                    <span class="span-size">本草纲目</span>
+                    <span class="span-size">生发</span>
+                    <span class="span-size">针灸</span>
+                    <span class="span-size">夏至</span>
+                </div>
+                <div class="ml-2 p-0 mb-3">化而为鸟，其名为鹏。鹏之背，不知其几千里也；</div>
+            </a>
+            <a class="col-3 p-0" href="#">
+                <img class="img-height position-relative w-100" src="../img/ClassA/3.jpg" alt="">
+                <div class="div-span">
+                    <span class="span-size">百会穴</span>
+                    <span class="span-size">健脾</span>
+                    <span class="span-size">阳气</span>
+                    <span class="span-size">五谷杂粮</span>
+                    <span class="span-size">养胃</span>
+                </div>
+                <div class="ml-2 p-0 mb-3">怒而飞，其翼若垂天之云。是鸟也，海运则将徙于南冥。南冥者，天池也。</div>
+            </a>
+            <a class="col-3 p-0" href="#">
+                <img class="img-height position-relative pr-0 w-100" src="../img/ClassA/4.jpg" alt="">
+                <div class="div-span">
+                    <span class="span-size">消炎</span>
+                    <span class="span-size">消暑</span>
+                    <span class="span-size">润肺</span>
+                    <span class="span-size">活血</span>
+                    <span class="span-size">提高免疫力</span>
+                </div>
+                <div class="ml-2 p-0 mb-3">海运则将徙于南冥。南冥者，天池也。《齐谐》者，志怪者也。</div>
+            </a>
+            <a class="col-3 p-0" href="#">
+                <img class="img-height position-relative w-100" src="../img/ClassA/5.jpg" alt="">
+                <div class="div-span">
+                    <span class="span-size">补齐</span>
+                    <span class="span-size">补血</span>
+                    <span class="span-size">清热</span>
+                    <span class="span-size">止咳</span>
+                    <span class="span-size">降血脂</span>
+                </div>
+                <div class="ml-2 p-0 mb-3">《谐》之言曰：“鹏之徙于南冥也，水击三千里，抟扶摇而上者九万里，去以六月息者也</div>
+            </a>
+            <a class="col-3 p-0" href="#">
+                <img class="img-height position-relative w-100" src="../img/ClassA/6.jpg" alt="">
+                <div class="div-span">
+                    <span class="span-size">提高免疫力</span>
+                    <span class="span-size">降血压</span>
+                    <span class="span-size">养颜</span>
+                    <span class="span-size">明目</span>
+                    <span class="span-size">消暑</span>
+                </div>
+                <div class="ml-2 p-0 mb-3">”野马也，尘埃也，生物之以息相吹也。天之苍苍，其正色邪？其远而无所至极邪？其视下也，亦若是则已矣。</div>
+            </a>
+            <a class="col-3 p-0" href="#">
+                <img class="img-height position-relative w-100" src="../img/ClassA/7.jpg" alt="">
+                <div class="div-span">
+                    <span class="span-size">排毒</span>
+                    <span class="span-size">普洱</span>
+                    <span class="span-size">抗衰老</span>
+                    <span class="span-size">消食</span>
+                    <span class="span-size">滋阴</span>
+                </div>
+                <div class="ml-2 p-0 mb-3">且夫水之积也不厚，则其负大舟也无力。覆杯水于坳堂之上，则芥为之舟，置杯焉则胶，水浅而舟大也</div>
+            </a>
+            <a class="col-3 p-0" href="#">
+                <img class="img-height position-relative pr-0 w-100" src="../img/ClassA/9.gif" alt="">
+                <div class="div-span">
+                    <span class="span-size">降血压</span>
+                    <span class="span-size">胆固醇</span>
+                    <span class="span-size">碧螺春</span>
+                    <span class="span-size">茶经</span>
+                    <span class="span-size">神农本草经</span>
+                </div>
+                <div class="ml-2 p-0 mb-3">风之积也不厚，则其负大翼也无力。故九万里，则风斯在下矣，而后乃今培风；背负青天，而莫之夭阏者，而后乃今将图南</div>
+            </a>
+        </div>
+        <!-- 时令食材-->
+        <div class="text-center bg-light">
+            <h4 class="mb-4">
+                <img class="bg-white" src="../img/ClassA/icon1.png" alt="" />时/令/食/材
+                <img class="bg-white" src="../img/ClassA/icon2.png" alt="" />
+            </h4>
+            <div class="food_2 d-flex flex-row flex-wrap m align-items-center">
+                <!-- 食材上部分-->
+                <div class="season_food">
+                    <a href="#"><img src="../img/ClassA/onions.jpg" alt="" />
+                        <p>洋葱</p>
+                    </a>
+                </div>
+                <div class="season_food">
+                    <a href="#"><img src="../img/ClassA/juanxincai.jpg" alt="" />
+                        <p>卷心菜</p>
+                    </a>
+                </div>
+                <div class="season_food">
+                    <a href="#"><img src="../img/ClassA/qingjiao.jpg" alt="" />
+                        <p>青椒</p>
+                    </a>
+                </div>
+                <div class="season_food">
+                    <a href="#"><img src="../img/ClassA/ganzhe.jpg" alt="" />
+                        <p>甘蔗</p>
+                    </a>
+                </div>
+                <div class="season_food">
+                    <a href="#"><img src="../img/ClassA/qincai.jpg" alt="" />
+                        <p>芹菜</p>
+                    </a>
+                </div>
+                <div class="season_food">
+                    <a href="#"><img src="../img/ClassA/juzi.jpg" alt="" />
+                        <p>橘子</p>
+                    </a>
+                </div>
+                <div class="season_food">
+                    <a href="#"><img src="../img/ClassA/youmaicai.jpg" alt="" />
+                        <p>油麦菜</p>
+                    </a>
+                </div>
+                <div class="season_food">
+                    <a href="#"><img src="../img/ClassA/mati.jpg" alt="" />
+                        <p>荸荠</p>
+                    </a>
+                </div>
+                <div class="season_food">
+                    <a href="#"><img src="../img/ClassA/youzi.jpg" alt="" />
+                        <p>柚子</p>
+                    </a>
+                </div>
+                <div class="season_food">
+                    <a href="#"><img src="../img/ClassA/carrot.jpg" alt="" />
+                        <p>胡萝卜</p>
+                    </a>
+                </div>
+                <div class="season_food">
+                    <a href="#"><img src="../img/ClassA/bocai.jpg" alt="" />
+                        <p>菠菜</p>
+                    </a>
+                </div>
+                <div class="season_food">
+                    <a href="#"><img src="../img/ClassA/baicai.jpg" alt="" />
+                        <p>白菜</p>
+                    </a>
+                </div>
+                <div class="season_food">
+                    <a href="#"><img src="../img/ClassA/youcai.jpg" alt="" />
+                        <p>油菜</p>
+                    </a>
+                </div>
+                <div class="season_food">
+                    <a href="#"><img src="../img/ClassA/caixin.jpg" alt="" />
+                        <p>菜心</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- 饮食养生，运动养生，中医养生-->
+        <div id="_index" class="row ">
+            <div class="col-4">
+                <div class="index-title">
+                    <a class="text-dark" href="">饮食养生</a>
+                </div>
+                <div class="index-img">
+                    <a href="#"><img class="w-100" src="../img/ClassA/songzi.jpg" alt="" />
+                        <p>6大坚果营养大比拼，这样吃健康又抗癌！你吃对了吗？</p>
+                    </a>
+                </div>
+                <div class="index-list">
+                    <ul class="list-group">
+                        <li><a href=""><span>04/24</span>婴幼儿腹泻吃什么食物好 护理腹泻儿童要注意什么</a></li>
+                        <li><a href=""><span>04/24</span>
+                                角膜炎饮食有什么禁忌吗？角膜炎患者的饮食宜忌</a></li>
+                        <li><a href=""><span>04/24</span>甲沟炎饮食方面要注意什么？有哪些东西不能吃呢</a></li>
+                        <li><a href=""><span>04/24</span>
+                                牙龈炎患者该如何饮食好 推荐缓解牙龈炎的饮食疗法</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="index-title index-title2">
+                    <a class="text-dark" href="">运动养生</a></div>
+                <div class="index-img">
+                    <a href="#"><img class="w-100" src="../img/ClassA/foot.jpg" alt="" />
+                        <p class="b1">万万没想到,长期步行的结果难以置信</p>
+                    </a>
+                </div>
+                <div class="index-list">
+                    <ul class="list-group">
+                        <li><a href=""><span>04/24</span>晚上运动等于慢性自杀 晚上运动的最佳时间</a></li>
+                        <li><a href=""><span>04/24</span>
+                                女性练瑜伽要注意什么 三个特殊时期不注意毁全身</a></li>
+                        <li><a href=""><span>04/24</span>
+                                慢走和跑步都没它养生，远离腰痛、胃病...受用无穷！</a></li>
+                        <li><a href=""><span>04/24</span>
+                                7个症状说明血管堵了！6个瑜伽动作让全身血液流通！</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="index-title index-title3">
+                    <a class="text-dark" href="">中医医生</a></div>
+                <div class="index-img">
+                    <a href="#"><img class="w-100" src="../img/ClassA/meinv.jpg" alt="" />
+                        <p class="b2">中医教你调养五脏之道，还你花容月貌！</p>
+                    </a>
+                </div>
+                <div class="index-list">
+                    <ul class="list-group">
+                        <li><a href=""><span>04/24</span>一妹纸用艾草煮水后 竟成了这个样子......</a></li>
+                        <li><a href=""><span>04/24</span>
+                                艾灸后可以泡脚吗 艾灸前泡还是艾灸后泡</a></li>
+                        <li><a href=""><span>04/24</span>
+                                这个穴位是通调百病的“万能穴”</a></li>
+                        <li><a href=""><span>04/24</span>
+                                四款专治消化不良的药膳 防护从饮食做起</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- 养生食谱-->
+        <div class="text-center bg-light my-5">
+            <h4><img src="../img/ClassA/icon3.png" alt="" />养/生/食/谱 <img src="../img/ClassA/icon4.png" alt="" /></h4>
+            <div class="food_1 d-flex flex-row flex-wrap m align-items-center">
+                <div class="healthy_food">
+                    <a href=""><img src="../img/ClassA/sigua.jpg" alt="" />
+                        <p>蒜蓉粉丝蒸丝瓜</p>
+                    </a>
+                </div>
+                <div class="healthy_food">
+                    <a href=""><img src="../img/ClassA/zhengdan.jpg" alt="" />
+                        <p>花蚬蒸蛋</p>
+                    </a>
+                </div>
+                <div class="healthy_food">
+                    <a href=""><img src="../img/ClassA/jitui.jpg" alt="" />
+                        <p>香菇蒸鸡腿</p>
+                    </a>
+                </div>
+                <div class="healthy_food">
+                    <a href=""><img src="../img/ClassA/luobojuan.jpg" alt="" />
+                        <p>三鲜罗卜卷</p>
+                    </a>
+                </div>
+                <div class="healthy_food">
+                    <a href=""><img src="../img/ClassA/luyu.jpg" alt="" />
+                        <p>柠香清蒸鲈鱼</p>
+                    </a>
+                </div>
+                <div class="healthy_food">
+                    <a href=""><img src="../img/ClassA/zhengxia.jpg" alt="" />
+                        <p>蒜香蒸虾</p>
+                    </a>
+                </div>
+                <div class="healthy_food">
+                    <a href=""><img src="../img/ClassA/jidangeng.jpg" alt="" />
+                        <p>米汤鸡蛋羹</p>
+                    </a>
+                </div>
+                <div class="healthy_food">
+                    <a href=""><img src="../img/ClassA/fengzhua.jpg" alt="" />
+                        <p>豆豉蒸凤爪</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- 养生资讯-->
+        <div class="text-center bg-light my-5">
+            <h4><img src="../img/ClassA/icon3.png" alt="" />养/生/食/谱 <img src="../img/ClassA/icon4.png" alt="" /></h4>
+            <div class="healthy_news d-flex flex-row flex-wrap">
+                <div class="news_one">
+                    <a href="#">
+                        <div class="course-card-top">
+                            <img src="../img/ClassA/001.jpg" alt="" />
+                            <div class="my_label">
+                                <span>养生</span>
+                                <span>养生大师</span>
+                                <span>保健品</span>
+                                <span>太极拳</span>
+                            </div>
+                        </div>
+                        <div class="news_content">
+                            “养生大师”59岁去世，普通人还要不要养生？
+                        </div>
+                    </a>
+                </div>
+                <div class="news_one">
+                    <a href="#">
+                        <div class="course-card-top">
+                            <img src="../img/ClassA/002.gif" alt="" />
+                            <div class="my_label">
+                                <span>口舌生疮</span>
+                                <span>金银花</span>
+                                <span>白醋</span>
+                                <span>治疗</span>
+                                <span>神农百草经</span>
+                                <span>枸杞</span>
+                            </div>
+                        </div>
+                        <div class="news_content">
+                            【养生】蜂蜜加一宝，胜似“神仙草”！用它冲着喝，防病解毒，还减肥消暑！
+                        </div>
+                    </a>
+                </div>
+                <div class="news_one">
+                    <a href="#">
+                        <div class="course-card-top">
+                            <img src="../img/ClassA/001.jpg" alt="" />
+                            <div class="my_label">
+                                <span>皇帝内经</span>
+                                <span>养生</span>
+                                <span>锻炼</span>
+                                <span>孙思邈</span>
+                                <span>起居有常</span>
+                            </div>
+                        </div>
+                        <div class="news_content">
+                            陈传席教授，你的养生观错了
+                        </div>
+                    </a>
+                </div>
+                <div class="news_one">
+                    <a href="#">
+                        <div class="course-card-top">
+                            <img src="../img/ClassA/003.jpg" alt="" />
+                            <div class="my_label">
+                                <span>肩周炎</span>
+                                <span>冻结肩</span>
+                                <span>推拿</span>
+                                <span>五十肩</span>
+                                <span>患肢</span>
+                            </div>
+                        </div>
+                        <div class="news_content">
+                            只要按照这个方法，即使是冬天，肩周炎也不再怕
+                        </div>
+                    </a>
+                </div>
+                <div class="news_one">
+                    <a href="#">
+                        <div class="course-card-top">
+                            <img src="../img/ClassA/004.gif" alt="" />
+                            <div class="my_label">
+                                <span>金城江</span>
+                                <span>按摩师</span>
+                                <span>自助餐厅</span>
+                                <span>健龙养生</span>
+                                <span>小江</span>
+                            </div>
+                        </div>
+                        <div class="news_content">
+                            金城江这家养生会所被曝光，现场图片亮了！你敢来吗？我请客
+                        </div>
+                    </a>
+                </div>
+                <div class="news_one">
+                    <a href="#">
+                        <div class="course-card-top">
+                            <img src="../img/ClassA/005.jpg" alt="" />
+                            <div class="my_label">
+                                <span>甘寒</span>
+                                <span>湿重女</span>
+                                <span>发酵食物</span>
+                                <span>甘淡</span>
+                                <span>女性</span>
+                            </div>
+                        </div>
+                        <div class="news_content">
+                            女性皮松、脸黄、暴躁、体虚，往往是体内湿气大
+                        </div>
+                    </a>
+                </div>
+                <div class="news_one">
+                    <a href="#">
+                        <div class="course-card-top">
+                            <img src="../img/ClassA/006.jpg" alt="" />
+                            <div class="my_label">
+                                <span>中里巴人</span>
+                                <span>胃经</span>
+                                <span>求医不如求己</span>
+                                <span>鱼尾纹</span>
+                                <span>中医</span>
+                            </div>
+                        </div>
+                        <div class="news_content">
+                            学会养生，掌握这个窍门才是关键
+                        </div>
+                    </a>
+                </div>
+                <div class="news_one">
+                    <a href="#">
+                        <div class="course-card-top">
+                            <img src="../img/ClassA/007.jpg" alt="" />
+                            <div class="my_label">
+                                <span>药物的副作用</span>
+                                <span>药物</span>
+                                <span>保健品</span>
+                                <span>吃粗粮</span>
+                                <span>血管痉挛</span>
+                            </div>
+                        </div>
+                        <div class="news_content">
+                            学会养生，掌握这个窍门才是关键
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <iframe class="footer-height" src="footer.html" frameborder="0"></iframe>
+</body>
+
+</html>

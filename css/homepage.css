@@ -1,0 +1,108 @@
+.z-index-1000{z-index: 1000;top: 0}
+.z-index-200{z-index: 200;left: 10px}
+@media (max-width: 767px) {
+    .z-index-200{background: rgba(130,130,130,.3);width: 120px;left: 10px;left:0;top: 0;bottom:0;}
+    .z-index-200 div{height: 29px; width: 100px;font-size: 15px;}
+    .z-index-200 div a{color: #fff;font-weight:lighter;}
+    .z-index-200 .icon1{height: 1rem;width: .6rem;top:.7rem;right: .3rem}
+    .z-index-200 .icon2{height: 1rem;width: .6rem;top:3.3rem;right: .3rem}
+    .z-index-200 .icon3{height: 1rem;width: .6rem;top:5.5rem;right: .3rem}
+    .z-index-200 .icon4{height: 1rem;width: .6rem;top:7.9rem;right: .3rem}
+    .z-index-200 .icon5{height: 1rem;width: .6rem;top:10.3rem;right: .3rem}
+    .img-height{height: 100px;padding: 0px 5px 5px 0px;border-radius: 1rem}
+    span.span-size{margin: 0}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .z-index-200{background: rgba(130,130,130,.3);width: 120px;left: 10px;}
+    .z-index-200 div{height: 35px;width: 120px;font-size: 18px}
+    .z-index-200 div a{color: #fff;font-weight:lighter;left:20px}
+    .z-index-200{bottom: 0;top: 0;left: 0;width: 160px}
+    .z-index-200 .icon1{height: 1rem;width: .7rem;top:1.3rem;right: .3rem}
+    .z-index-200 .icon2{height: 1rem;width: .7rem;top:4.7rem;right: .3rem}
+    .z-index-200 .icon3{height: 1rem;width: .7rem;top:7.8rem;right: .3rem}
+    .z-index-200 .icon4{height: 1rem;width: .7rem;top:11rem;right: .3rem}
+    .z-index-200 .icon5{height: 1rem;width: .7rem;top:14.3rem;right: .3rem}
+    .img-height{height: 120px;padding: 0px 5px 5px 0px;border-radius: 1rem}
+}
+@media (min-width: 992px) {
+    .z-index-200{background: rgba(130,130,130,.3);width: 120px;left: 10px;top: 0;bottom: 0;left: 0;width: 210px}
+    .z-index-200 div{height: 40px;width: 140px;font-size: 20px}
+    .z-index-200 div a{color: #fff;font-weight:lighter;left:20px}
+    .z-index-200 .icon1{height: 1rem;width: .8rem;top:2rem;right: .8rem}
+    .z-index-200 .icon2{height: 1rem;width: .8rem;top:6rem;right: .8rem}
+    .z-index-200 .icon3{height: 1rem;width: .8rem;top:10rem;right: .8rem}
+    .z-index-200 .icon4{height: 1rem;width: .8rem;top:14rem;right: .8rem}
+    .z-index-200 .icon5{height: 1rem;width: .8rem;top:18rem;right: .8rem}
+    .img-height{height: 150px;padding-bottom: 10px;padding-right:10px;border-radius: 1rem}
+}
+
+@media (min-width: 1200px) {
+    .z-index-200{background: rgba(130,130,130,.3);width: 120px;left: 10px;top: 0;bottom: 0;left: 0;width: 210px}
+    .z-index-200 div{height: 58px;width: 140px;font-size: 23px}
+    .z-index-200 div a{color: #fff;font-weight:lighter;left:20px}
+    .z-index-200 .icon1{height: 1rem;width: .8rem;top:2rem;right: .8rem}
+    .z-index-200 .icon2{height: 1rem;width: .8rem;top:7.2rem;right: .8rem}
+    .z-index-200 .icon3{height: 1rem;width: .8rem;top:12.4rem;right: .8rem}
+    .z-index-200 .icon4{height: 1rem;width: .8rem;top:17.5rem;right: .8rem}
+    .z-index-200 .icon5{height: 1rem;width: .8rem;top:22.65rem;right: .8rem}
+    .img-height{height: 180px;padding:0px 2px 10px 10px;border-radius: 1rem}
+}
+/*巨幕*/
+.btn{padding: 0px !important;font-size: .9rem;border-radius: 10rem;background: #fff;}
+
+
+
+/*养生资讯*/
+.span-size{display: inline-block;background: rgba(7,17,27,.4);border-radius: 12px;padding: 3px 6px;  margin-bottom: 6px;margin-right: 6px;margin-left:10px;font-weight:300;}
+.div-span{position:absolute; bottom: 3rem;left: 8px;  font-size: 12px;  color: #FFF;  line-height: 16px;}
+div.div-span+div{font-size: 14px;color: #666;text-align: center;padding-top: 10px;transition: all .3s;  overflow: hidden;text-overflow: ellipsis;white-space: nowrap;text-decoration:none}
+div.div-span+div:hover{color: red}
+.img-height:hover{transform: scale(1.1);cursor: pointer}
+
+
+/*轮播图*/
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    height: 80%;
+    width: 80%;
+}
+
+.carousel-control-next {
+    height: 20%;
+    width: 5%;
+    top: 40%
+}
+
+.carousel-control-prev {
+    height: 20%;
+    width: 5%;
+    top: 40%;
+    position: absolute;
+    left: 25%
+}
+
+.carousel-indicators .active {
+    background: #0aa1ed
+}
+
+.carousel-indicators li {
+    height: .6rem;
+    width: .6rem;
+    background: #fff;
+    border-radius: 50%;
+}
+
+.carousel-indicators {
+    margin: 0px 0px 1% 83%;
+    width: 10%;
+}
+
+.rounded-circle {
+    border-radius: .5rem !important;
+}
+
+
+.header-height{width: 100%;height: 4.6rem}
+.pt-6{padding-top: 5rem !important;}
+.box-shadow{box-shadow: 0 0 15px 0 #000}
+
+.footer-height{width:100%;height:12rem}

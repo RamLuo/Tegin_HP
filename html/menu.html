@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>菜谱</title>
+    <!--引入4个文件,必须注意导入顺序-->
+    <link rel="stylesheet" href="../css/bootstrap.css"/>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../css/menu.css"/>
+    <link rel="stylesheet" href="../css/header_footer.css"/>
+</head>
+<body>
+    <!-- header start-->
+    <div id="header">头部</div>
+    <!-- header end-->
+    <div class="container">
+        <!-- main start-->
+        <div id="main">
+            <!-- 分类-->
+            <div class="classify">
+                <span class="hd">分类：</span>
+                <div class="bd">
+                    <ul>
+                        <li><a href="#" class="btn1">全部</a></li>
+                        <li><a href="#">家常菜</a></li>
+                        <li><a href="#">热菜</a></li>
+                        <li><a href="#">蒸菜</a></li>
+                        <li><a href="#">凉菜</a></li>
+                        <li><a href="#">主食</a></li>
+                        <li><a href="#">小吃</a></li>
+                        <li><a href="#">饮品</a></li>
+                        <li><a href="#">养生粥</a></li>
+                        <li><a href="#">养生汤</a></li>
+                        <li><a href="#">养生茶</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- 功效-->
+            <div class="efficacy">
+                <span class="hd">功效：</span>
+                <div class="bd">
+                    <ul>
+                        <li><a href="#" class="btn1">全部</a></li>
+                        <li><a href="#">防癌</a></li>
+                        <li><a href="#">抗衰老</a></li>
+                        <li><a href="#">降血压</a></li>
+                        <li><a href="#">降血糖</a></li>
+                        <li><a href="#">降血脂</a></li>
+                        <li><a href="#">提高免疫力</a></li>
+                        <li><a href="#">开胃</a></li>
+                        <li><a href="#">养胃</a></li>
+                        <li><a href="#">养心</a></li>
+                        <li><a href="#">养肝</a></li>
+                        <li><a href="#">润肺</a></li>
+                        <li><a href="#">润肠</a></li>
+                        <li><a href="#">滋阴</a></li>
+                        <li><a href="#">养颜</a></li>
+                        <li><a href="#">壮阳</a></li>
+                        <li><a href="#">补肾</a></li>
+                        <li><a href="#">补血</a></li>
+                        <li><a href="#">补脾</a></li>
+                        <li><a href="#">补气</a></li>
+                        <li><a href="#">消食</a></li>
+                        <li><a href="#">消炎</a></li>
+                        <li><a href="#">消肿</a></li>
+                        <li><a href="#">清热</a></li>
+                        <li><a href="#">消暑</a></li>
+                        <li><a href="#">排毒</a></li>
+                        <li><a href="#">生津</a></li>
+                        <li><a href="#">活血</a></li>
+                        <li><a href="#">健脑</a></li>
+                        <li><a href="#">安神</a></li>
+                        <li><a href="#">明目</a></li>
+                        <li><a href="#">止咳</a></li>
+                        <li><a href="#">止痛</a></li>
+                        <li><a href="#">利尿</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- 食材-->
+            <div class="food_material">
+                <span class="hd">食材：</span>
+                <div class="bd">
+                    <ul>
+                        <li><a href="#" class="btn1">全部</a></li>
+                        <li><a href="#">黄瓜</a></li>
+                        <li><a href="#">西红柿</a></li>
+                        <li><a href="#">牛肉</a></li>
+                        <li><a href="#">虾</a></li>
+                        <li><a href="#">南瓜</a></li>
+                        <li><a href="#">茄子</a></li>
+                        <li><a href="#">土豆</a></li>
+                        <li><a href="#">鸡腿</a></li>
+                        <li><a href="#">鸡肉</a></li>
+                        <li><a href="#">丝瓜</a></li>
+                        <li><a href="#">菜花</a></li>
+                        <li><a href="#">鲫鱼</a></li>
+                        <li><a href="#">萝卜</a></li>
+                        <li><a href="#">冬瓜</a></li>
+                        <li><a href="#">螃蟹</a></li>
+                        <li><a href="#">山药</a></li>
+                        <li><a href="#">金针菇</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- 排序-->
+            <div class="sort">
+                <span class="hd">排序：</span>
+                <div class="bd">
+                    <ul>
+                        <li><a href="#" class="btn1">最新</a></li>
+                        <li><a href="#">点击</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 菜谱-->
+    <!-- 包括图片和菜名-->
+    <div id="caipu">
+        <div class="shipu-pic-content">
+            <ul>
+                <li>
+                    <a target="_blank" href="#">
+                        <img src="../img/menu/steamed_dish/89089.jpg"/>
+                    </a>
+                    <p>蒜蓉粉丝蒸丝瓜</p>
+                </li>
+                <li>
+                    <a target="_blank" href="6083.html">
+                        <img src="../img/menu/steamed_dish/0-TAsAFP.jpg"/>
+                    </a>
+                    <p>花蚬蒸蛋</p>
+                </li>
+                <li>
+                    <a target="_blank" href="#">
+                        <img src="../img/menu/snack/89750.jpg"/>
+                    </a>
+                    <p>四寸戚风蛋糕</p>
+                </li>
+                <li>
+                    <a target="_blank" href="#">
+                        <img src="../img/menu/steamed_dish/89113.jpg"/>
+                    </a>
+                    <p>三鲜萝卜卷</p>
+                </li>
+                <li>
+                    <a target="_blank" href="#">
+                        <img src="../img/menu/health_ tea/83143.jpg"/>
+                    </a>
+                    <p>猪蹄炖黄豆</p>
+                </li>
+                <li>
+                    <a target="_blank" href="#">
+                        <img src="../img/menu/steamed_dish/89248.jpg"/>
+                    </a>
+                    <p>粉蒸鸡翅</p>
+                </li>
+                <li>
+                    <a target="_blank" href="#">
+                        <img src="../img/menu/health_soup/89516.jpg"/>
+                    </a>
+                    <p>山药炖排骨</p>
+                </li>
+                <li>
+                    <a target="_blank" href="#">
+                        <img src="../img/menu/steamed_dish/89437.jpg"/>
+                    </a>
+                    <p>蘑菇塔</p>
+                </li>
+                <li>
+                    <a target="_blank" href="#">
+                        <img src="../img/menu/steamed_dish/89153.jpg"/>
+                    </a>
+                    <p>柠香清蒸鲈鱼</p>
+                </li>
+                <li>
+                    <a target="_blank" href="#">
+                        <img src="../img/menu/steamed_dish/89175.jpg"/>
+                    </a>
+                    <p>米汤鸡蛋羹</p>
+                </li>
+                <li>
+                    <a target="_blank" href="#">
+                        <img src="../img/menu/cold_dishes/89512.jpg"/>
+                    </a>
+                    <p>凉拌秋葵(洋豆角)</p>
+                </li>
+                <li>
+                    <a target="_blank" href="#">
+                        <img src="../img/menu/health_ porridge/87641.jpg"/>
+                    </a>
+                    <p>萝卜香菇肉粥</p>
+                </li>
+                <li>
+                    <a target="_blank" href="#">
+                        <img src="../img/menu/drink/89080.jpg"/>
+                    </a>
+                    <p>芒果草莓酸奶杯</p>
+                </li>
+                <li>
+                    <a target="_blank" href="#">
+                        <img src="../img/menu/home_dishes/88973.jpg"/>
+                    </a>
+                    <p>黑椒汁意大利面</p>
+                </li>
+                <li>
+                    <a target="_blank" href="#">
+                        <img src="../img/menu/drink/89873.jpg"/>
+                    </a>
+                    <p>芒果奶昔</p>
+                </li>
+                <li>
+                    <a target="_blank" href="#">
+                        <img src="../img/menu/cold_dishes/0-I6copX.jpg"/>
+                    </a>
+                    <p>凉拌海带丝</p>
+                </li>
+                <li>
+                    <a target="_blank" href="#">
+                        <img src="../img/menu/cold_dishes/0-XAarhM.jpg"/>
+                    </a>
+                    <p>香卤鸡爪</p>
+                </li>
+                <li>
+                    <a target="_blank" href="#">
+                        <img src="../img/menu/cold_dishes/0-z6oiy7.jpg"/>
+                    </a>
+                    <p>尖椒皮蛋</p>
+                </li>
+                <li>
+                    <a target="_blank" href="#">
+                        <img src="../img/menu/home_dishes/89289.jpg"/>
+                    </a>
+                    <p>山丁拌饭</p>
+                </li>
+                <li>
+                    <a target="_blank" href="#">
+                        <img src="../img/menu/hot_dishes/89898.jpg"/>
+                    </a>
+                    <p>双椒榨菜丝</p>
+                </li>
+                <li>
+                    <a target="_blank" href="#">
+                        <img src="../img/menu/steamed_dish/89755.jpg"/>
+                    </a>
+                    <p>梅菜扣肉</p>
+                </li>
+                <li>
+                    <a target="_blank" href="#">
+                        <img src="../img/menu/snack/89243.jpg"/>
+                    </a>
+                    <p>酸奶慕斯</p>
+                </li>
+                <li>
+                    <a target="_blank" href="#">
+                        <img src="../img/menu/home_dishes/89185.jpg"/>
+                    </a>
+                    <p>千层花卷</p>
+                </li>
+                <li>
+                    <a target="_blank" href="#">
+                        <img src="../img/menu/steamed_dish/89234.jpg"/>
+                    </a>
+                    <p>家常鸡蛋羹</p>
+                </li>
+                <li>
+                    <a target="_blank" href="#">
+                        <img src="../img/menu/steamed_dish/89221.jpg"/>
+                    </a>
+                    <p>蒜蓉蒸金针菇</p>
+                </li>
+            </ul>
+        </div>
+        <!--分页 -->
+        <div id="page" class="d-block">
+            <ul class="pagination">
+                <li class="page-item disabled">
+                    <a class="page-link" href="#">20</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="#">上一页</a>
+                </li>
+                <li class="page-item active">
+                    <a class="page-link" href="#">1</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="#">2</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="#">3</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="#">4</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="#">5</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="#">下一页</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link disabled" href="#">尾页</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- main end-->
+    <!-- footer start-->
+    <div id="footer">底部</div>
+    <!-- footer end-->
+</body>
+</html>
